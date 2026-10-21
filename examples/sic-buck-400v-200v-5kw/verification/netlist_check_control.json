@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "board": "control",
+  "project": "AIPE_SiC_Buck_Control",
+  "generated_utc": "2026-10-13T03:17:38.899843+00:00",
+  "checker": "automation/verification/netlist_check_sic.py",
+  "scope": "pad/net equality between model, schematic netlist and board only; hardware unqualified",
+  "inputs": {
+    "model": {
+      "file": "D:\\Cursor Workspace\\AIPE-PCB-Agent\\examples\\sic-buck-400v-200v-5kw\\design\\circuit_control.json",
+      "sha256": "1e0a5edada7bbabf8f588cf392682ca9d8b5941803ca4bf61939a34a279c32b8",
+      "parts": 211,
+      "dnp_parts": 1,
+      "mapped_pins": 675,
+      "named_nets": 111
+    },
+    "schematic_netlist": {
+      "file": "D:\\Cursor Workspace\\AIPE-PCB-Agent\\examples\\sic-buck-400v-200v-5kw\\manufacturing\\control_board\\netlist.xml",
+      "sha256": "20738cafdde1b7bad89d546e4856334c3b9c53ea5f21bf59648ea33b3efb8641",
+      "exists": true,
+      "components": 211,
+      "nodes": 763,
+      "named_nodes": 675,
+      "named_nets": 111,
+      "tool": "Eeschema 10.0.7",
+      "source": "D:\\Cursor Workspace\\AIPE-PCB-Agent\\examples\\sic-buck-400v-200v-5kw\\kicad\\control_board\\AIPE_SiC_Buck_Control.kicad_sch",
+      "conflicting_nodes": []
+    },
+    "board": {
+      "file": "D:\\Cursor Workspace\\AIPE-PCB-Agent\\examples\\sic-buck-400v-200v-5kw\\kicad\\control_board\\AIPE_SiC_Buck_Control.kicad_pcb",
+      "sha256": "6a1d9dbc5183a0fd79fc0c7b2937a4348b7f116fb12dd0ee7fb89a8b30cc94ef",
+      "exists": true,
+      "footprints": 211,
+      "pads": 780,
+      "numbered_pads": 763,
+      "named_pads": 675,
+      "named_nets": 111,
+      "pcbnew_version": "10.0.7",
+      "conflicting_pads": []
+    }
+  },
+  "problems": [],
+  "schematic_vs_model": {
+    "exact": true,
+    "pads_compared": 675,
+    "mismatches": 0,
+    "only_in_schematic": 0,
+    "only_in_model": 0,
+    "different_net": 0,
+    "components_equal": true,
+    "components_only_in_schematic": [],
+    "components_only_in_model": [],
+    "mismatch_list": []
+  },
+  "board_vs_model": {
+    "exact": true,
+    "pads_compared": 675,
+    "mismatches": 0,
+    "only_in_board": 0,
+    "only_in_model": 0,
+    "different_net": 0,
+    "components_equal": true,
+    "components_only_in_board": [],
+    "components_only_in_model": [],
+    "mismatch_list": []
+  },
+  "board_vs_schematic": {
+    "exact": true,
+    "pads_compared": 675,
+    "mismatches": 0,
+    "only_in_board": 0,
+    "only_in_schematic": 0,
+    "different_net": 0,
+    "components_equal": true,
+    "components_only_in_board": [],
+    "components_only_in_schematic": [],
+    "mismatch_list": []
+  },
+  "exact_match": true
+}

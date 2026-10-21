@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "status": "AI-GENERATED ENGINEERING PROTOTYPE - V2.2 - HUMAN REVIEW REQUIRED",
+  "generator": "automation.kicad_tools.refine_sic_v22",
+  "baseline": "releases/v2.1/verification/routing_progress_control.json",
+  "generated_utc": "2026-10-13T03:26:54.154814+00:00",
+  "board": "D:\\Cursor Workspace\\AIPE-PCB-Agent\\examples\\sic-buck-400v-200v-5kw\\kicad\\control_board\\AIPE_SiC_Buck_Control.kicad_pcb",
+  "board_sha256": "6a1d9dbc5183a0fd79fc0c7b2937a4348b7f116fb12dd0ee7fb89a8b30cc94ef",
+  "stage": "routed",
+  "unresolved_count": 0,
+  "footprints": 211,
+  "tracks": 4548,
+  "vias": 805,
+  "zones": 20,
+  "drc": {
+    "manifest": "D:\\Cursor Workspace\\AIPE-PCB-Agent\\examples\\sic-buck-400v-200v-5kw\\verification\\drc\\20261013T031237Z-drc-2a82689c\\run.json",
+    "status": "passed",
+    "finding_count": 0,
+    "violations": 0,
+    "unconnected_items": 0,
+    "schematic_parity": 0
+  },
+  "evidence_note": "Counts are read from the final CAD; original router search statistics remain in the frozen release."
+}
